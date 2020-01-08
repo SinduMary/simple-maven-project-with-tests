@@ -11,39 +11,7 @@
             <url>http://opensource.org/licenses/MIT</url>
         </license>
     </licenses>
-    <build>
-
-    <plugins>
-
-      <plugin>
-
-        <groupId>org.apache.maven.plugins</groupId>
-
-        <artifactId>maven-compiler-plugin</artifactId>
-
-        <version>${maven.compiler.plugin.version}</version>
-
-        <configuration>
-
-          <source>${jdk.version}</source>
-
-          <target>${jdk.version}</target>
-
-        </configuration>
-
-      </plugin>
-
-     <plugin>
-
-            <artifactId>maven-deploy-plugin</artifactId>
-
-            <version>3.0.0-M1</version>
-
-        </plugin>
-
-     </plugins>
-
-  </build>
+    
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -55,34 +23,19 @@
     <build>
 
     <plugins>
-
       <plugin>
-
         <groupId>org.apache.maven.plugins</groupId>
-
         <artifactId>maven-compiler-plugin</artifactId>
-
         <version>${maven.compiler.plugin.version}</version>
-
         <configuration>
-
           <source>${jdk.version}</source>
-
           <target>${jdk.version}</target>
-
         </configuration>
-
       </plugin>
-
      <plugin>
-
             <artifactId>maven-deploy-plugin</artifactId>
-
             <version>3.0.0-M1</version>
-
         </plugin>
-
-     </plugins>
-
-  </build>
+    </plugins>
+    </build>
 </project>
