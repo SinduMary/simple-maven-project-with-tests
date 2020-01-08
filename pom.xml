@@ -11,6 +11,21 @@
             <url>http://opensource.org/licenses/MIT</url>
         </license>
     </licenses>
+    <properties>
+
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+    <jdk.version>1.8</jdk.version>
+
+
+
+    <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
+
+           
+
+  </properties>
     
     <dependencies>
         <dependency>
